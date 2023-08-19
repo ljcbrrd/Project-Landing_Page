@@ -1,0 +1,42 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  .header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin: 0 50px;
+  }
+
+  .logo{
+    height:100px;
+    width: 100px;;
+  }
+  .header-links{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 10px;
+  }
+  .header2{
+    border: 1px solid green;
+    background-color: #1f2937;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+  .awesome-img{
+    height:200px;
+    width:300px;
+  }
+  .awesome-txt{
+    font-size: 40px;
+  }
