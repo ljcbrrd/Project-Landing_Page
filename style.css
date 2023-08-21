@@ -8,100 +8,196 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red;
     background-color: #1f2937;
     padding: 0 3%;
   }
+
   li{
     list-style-type: none;
   }
+
   a{
     text-decoration: none;
     color: aliceblue;
+    font-size: 18px;
   }
 
   .logo{
-    border: 1px solid yellow;
     height:100px;
     width: 100px;;
   }
+
   .header-links{
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 20px;
   }
+
   .header2{
-    border: 1px solid green;
     background-color: #1f2937;
     color: aliceblue;
     display: flex;
     flex-direction: row;
-    padding: 3% 3%;
+    padding: 5% 5%;
   }
-  button{
+
+  .button-top{
     background-color: #3b82f6;
     color:aliceblue;
     font-size: 20px;
-    border-radius: 6px;
+    font-weight: bold;
+    border-radius: 10px;
     border: none;
     padding: 5px 15px;
-    width: 100px;
+    width: 120px;
   }
+
   .awesome-img{
     height: auto;
     width: auto;
   }
+
   .awesome-title{
     font-size: 48px;
     font-weight: bolder;
   }
+
   .awesome-txt{
     font-size: 18px;
+    color: rgb(195,201,206);
   }
+
   .header2-left, .header2-right{
     display: flex;
-    border: 1px solid orange;
   }
+
   .header2-left{
     flex-direction: column;
-    padding-right:20%;
+    min-width: 50%;
   }
+
   .header2-right{
+    border: 2px solid gray;
+    min-width: 50%;
+    justify-content: center;
+  }
+
+  .h2-pic{
+    height: auto;
     width: 100%;
-    height: 250px;
-    background-image: url('../Project-Landing_Page/images/saffron.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid red;
   }
   
-  .content{
-    border: 1px solid teal;
-    padding: 50px 0;
-  }
   .content-header{
-    display:flex;
+    display: flex;
     font-size: 36px;
     font-weight: bolder;
-    justify-content:center ;
+    justify-content: center;
+    padding: 5%;
   }
   
   .info-pic{
-    border: 1px solid green;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 8%;
   }
+
+  .pic-box{
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+    max-width: 20%;
+    height: auto;
+    padding-bottom: 10%;
+  }
+
   .pic{
-    height:200px;
-    width:200px;
     border: 5px solid #3882f6;
     border-radius: 10%;
-    margin:30px;
+    margin:5%;
   }
+  
   .pic-txt{
-    width:200px;
-    margin:0 30px;
+    font-size: 18px;
+    text-align: center;
+    margin:0 5%;
+  }
+
+  .quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px 18%;
+    text-justify: distribute;
+  }
+
+  .thor{
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .spacer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .action{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #3b82f6;
+    width: 70%;
+    padding: 5%;
+    margin: 10%;
+  }
+
+  .action-left, .action-right{
+    display: flex;
+    
+  }
+
+  .action-left{
+    width: 70%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .action-right{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+
+  .call, .call-detail{
+    color: aliceblue;
+  }
+
+  .call{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .button-bot{
+    background-color: #3b82f6;
+    border: 2px solid aliceblue;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 15px;
+    width: 120px;
+  }
+  
+  .footer{
+    background-color: #1f2937;
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
   }
